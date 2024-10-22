@@ -514,3 +514,73 @@ img {
 .footer-soc-icon-link:focus {
     background-color: #31d0aa;
 }
+
+/*----------------Backdrop ------------------- */
+
+.backdrop {
+width: 408px;
+height: 584px;
+border-radius: 4px;
+fill: #fcfcfc;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modal {
+
+}
+
+.modal-open {}
+
+.modal-title {
+    font: 500 16px / 150% "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.modal-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 4px;
+    width: 360px;
+    height: 336px;
+}
+
+.modal-input {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+
+.modal-field {
+    
+}
+
+.modal-textarea {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 120px;
+}
+
+.modal-btn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    font: 500 16px / 150% "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
