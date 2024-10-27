@@ -575,7 +575,7 @@ img {
 
 .subscribe-btn:hover,
 .subscribe-btn:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf;
 }
 
 /*----------------Backdrop ------------------- */
@@ -642,9 +642,7 @@ img {
 }
 
 
-.modal-btn-icon {
-     
-}
+.modal-btn-icon {}
 
 .modal-title {
     font-weight: 500;
@@ -686,9 +684,7 @@ img {
     background-color: #dfdddb;
 }
 
-.modal-field {
-    
-}
+.modal-field {}
 
 .input-wrapper {
     position: relative;
@@ -730,7 +726,7 @@ textarea::placeholder {
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -752,9 +748,7 @@ textarea::placeholder {
 
 .checkbox-true {}
 
-.modal-check-icon {
-
-}
+.modal-check-icon {}
 
 .privacy-policy {
     font-size: 12px;
@@ -783,6 +777,7 @@ textarea::placeholder {
     text-align: center;
     color: #fff;
     margin: 0 auto;
+    margin-top: 24px;
     border: none;
 }
 
